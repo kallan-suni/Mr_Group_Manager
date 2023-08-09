@@ -212,19 +212,25 @@ async def next_page(bot, query):
             for file in files
         ]
 
-    btn.insert(0, 
+       btn.insert(0,
         [
-            InlineKeyboardButton(f'🚧 {search} 🚧 ', 'dupe')
+               InlineKeyboardButton(f'🚧 {search} 🚧 ', 'dupe')
         ]
-    )
-    btn.insert(1,
-        [
-            InlineKeyboardButton(f'Movies', 'minfo'),
-            InlineKeyboardButton(f'Info', 'info'),
-            InlineKeyboardButton(f"files: {len(btn)}", callback_data="files")
-        ]
-    )    
-
+           
+     )
+     btn.insert(0,
+         [
+             InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{userid}"),
+             InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+         ]
+     )
+     btn.insert(0,
+         [
+             InlineKeyboardButton(f'Movies', 'minfo'),
+             InlineKeyboardButton(f'Info', 'info'),
+             InlineKeyboardButton(f"files: {len(btn)}", callback_data="files")
+         ]
+    )            
     if 0 < offset <= 10:
         off_set = 0
     elif offset == 0:
