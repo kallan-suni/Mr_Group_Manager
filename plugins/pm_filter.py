@@ -220,8 +220,8 @@ async def next_page(bot, query):
      )
      btn.insert(0,
          [
-             InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", callback_data=f"send_fall#{pre}#{0}#{userid}"),
-             InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+             InlineKeyboardButton("📥 Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#{pre}#{0}#{userid}"),
+             InlineKeyboardButton("🤖 Cʜᴇᴄᴋ Bᴏᴛ PM", url=f"https://t.me/{temp.U_NAME}")
          ]
      )
      btn.insert(0,
