@@ -848,15 +848,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":   
         buttons = [[
-            InlineKeyboardButton('╳ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ╳', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('✛ 𝗔ᴅᴅ 𝗠ᴇ 𝗧ᴏ 𝗬ᴏᴜʀ 𝗚ʀᴏᴜᴘ ✛', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('♚ ʙᴏᴛ ᴏᴡɴᴇʀ', callback_data='source'),
-            InlineKeyboardButton('⌬ sᴜᴘᴘᴏʀᴛ', callback_data='supports')
+            InlineKeyboardButton('🤵 𝗗ᴇᴠ', callback_data='source'),
+            InlineKeyboardButton('🎭 𝗦ᴜᴘᴘᴏʀᴛ', callback_data='supports')
         ], [
             InlineKeyboardButton('☌ ɪɴʟɪɴᴇ sᴇᴀʀᴄʜ ☌', switch_inline_query_current_chat='')
         ], [
-            InlineKeyboardButton('〄 ʜᴇʟᴘ', callback_data='help2'),
-            InlineKeyboardButton('⍟ ᴀʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('♻️ 𝗛ᴇʟᴘ ♻️ ', callback_data='help2'),
+            InlineKeyboardButton('💠 𝗔ʙᴏᴜᴛ 💠', callback_data='about')
         ], [
             InlineKeyboardButton('✇ ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ ✇', url='https://t.me/+ZiDeeN9yubk5NDhl')
         ]]
