@@ -218,13 +218,13 @@ async def next_page(bot, query):
          ]
            
       )
-      btn.insert(0,
+      btn.insert(1,
           [
              InlineKeyboardButton("📥 Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#{pre}#{0}#{userid}"),
              InlineKeyboardButton("🤖 Cʜᴇᴄᴋ Bᴏᴛ PM", url=f"https://t.me/{temp.U_NAME}")
           ]
       )
-      btn.insert(0,
+      btn.insert(2,
           [
              InlineKeyboardButton(f'Movies', 'minfo'),
              InlineKeyboardButton(f'Info', 'info'),
