@@ -211,7 +211,8 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
-        
+  try:      
+     data.insert(postion, new_data)
      btn.insert(0,
          [
             InlineKeyboardButton(f'🚧 {search} 🚧 ', 'dupe')
