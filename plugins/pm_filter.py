@@ -213,23 +213,24 @@ async def next_page(bot, query):
         ]
        
     data.insert(postion, new_data)
+    
          [
             InlineKeyboardButton(f'🚧 {search} 🚧 ', 'dupe')
          ]
            
-      )
-      btn.insert(1,
-          [
-             InlineKeyboardButton("📥 Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#{pre}#{0}#{userid}"),
-             InlineKeyboardButton("🤖 Cʜᴇᴄᴋ Bᴏᴛ PM", url=f"https://t.me/{temp.U_NAME}")
-          ]
-      )
-      btn.insert(2,
-          [
-             InlineKeyboardButton(f'Movies', 'minfo'),
-             InlineKeyboardButton(f'Info', 'info'),
-             InlineKeyboardButton(f"files: {len(btn)}", callback_data="files")
-          ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton("📥 Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#{pre}#{0}#{userid}"),
+            InlineKeyboardButton("🤖 Cʜᴇᴄᴋ Bᴏᴛ PM", url=f"https://t.me/{temp.U_NAME}")
+        ]
+    )
+    btn.insert(2,
+        [
+            InlineKeyboardButton(f'Movies', 'minfo'),
+            InlineKeyboardButton(f'Info', 'info'),
+            InlineKeyboardButton(f"files: {len(btn)}", callback_data="files")
+        ]
     )
 
     if 0 < offset <= 10:
